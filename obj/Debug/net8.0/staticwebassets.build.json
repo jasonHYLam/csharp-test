@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YS4lJG73/7gapn21/4cIQ54rRliLBT2cYCj+FDTl0yM=",
+  "Hash": "oaZpvdt5jw3LQpjNLUEILUNfbTWb+Ehxu6a/pKXm6TM=",
   "Source": "postgresTest",
   "BasePath": "_content/postgresTest",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/bundle/postgresTest.styles.css",
-      "SourceId": "postgresTest",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/bundle/",
-      "BasePath": "_content/postgresTest",
-      "RelativePath": "postgresTest.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/bundle/postgresTest.styles.css"
-    },
-    {
-      "Identity": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/projectbundle/postgresTest.bundle.scp.css",
-      "SourceId": "postgresTest",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/projectbundle/",
-      "BasePath": "_content/postgresTest",
-      "RelativePath": "postgresTest.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/projectbundle/postgresTest.bundle.scp.css"
-    },
     {
       "Identity": "/home/jhyl22/repos/test-c-sharp/postgresTest/wwwroot/css/site.css",
       "SourceId": "postgresTest",

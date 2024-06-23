@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace postgresTest.Model
 {
-  public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+  public class ApplicationDbContext : IdentityDbContext<User>
   {
     public DbSet<User> Users { get; set; }
     public DbSet<Study> Studies { get; set; }
@@ -13,17 +13,19 @@ namespace postgresTest.Model
 
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-    { }
-
-    protected override void OnModelCreating(ModelBuilder builder)
     {
-      base.OnModelCreating(builder);
-
-      builder.Entity<Study>()
-      .HasOne(s => s.User)
-      .WithMany(u => u.Studies)
-      .HasForeignKey(s => s.UserId);
     }
+
+
+    // protected override void OnModelCreating(ModelBuilder builder)
+    // {
+    //   base.OnModelCreating(builder);
+
+    //   builder.Entity<Study>()
+    //   .HasOne(s => s.User)
+    //   .WithMany(u => u.Studies)
+    //   .HasForeignKey(s => s.UserId);
+    // }
   }
 
 }

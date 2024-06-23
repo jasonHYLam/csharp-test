@@ -7,6 +7,6 @@ public class CreateStudyInput
   public string OriginalLink { get; set; }
 
   // trying to figure out file upload
-  public IFormFile file { get; set; }
+  public IFormFile ImageFile { get; set; }
 
 }

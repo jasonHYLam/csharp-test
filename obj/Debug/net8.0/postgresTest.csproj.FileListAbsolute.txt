@@ -84,8 +84,6 @@
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.AssemblyInfo.cs
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.csproj.CoreCompileInputs.cache
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.MvcApplicationPartsAssemblyInfo.cache
-/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.RazorAssemblyInfo.cache
-/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.RazorAssemblyInfo.cs
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets.build.json
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets.development.json
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets/msbuild.postgresTest.Microsoft.AspNetCore.StaticWebAssets.props
@@ -93,9 +91,7 @@
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.postgresTest.props
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.postgresTest.props
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/staticwebassets.pack.json
-/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/bundle/postgresTest.styles.css
-/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/projectbundle/postgresTest.bundle.scp.css
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.csproj.CopyComplete
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.dll
 /home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/refint/postgresTest.dll
@@ -248,3 +244,6 @@
 /home/jhyl22/repos/test-c-sharp/postgresTest/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Drawing.Common.dll
 /home/jhyl22/repos/test-c-sharp/postgresTest/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.ProtectedData.dll
 /home/jhyl22/repos/test-c-sharp/postgresTest/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
+/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/postgresTest.sourcelink.json
+/home/jhyl22/repos/test-c-sharp/postgresTest/bin/Debug/net8.0/CloudinaryDotNet.dll
+/home/jhyl22/repos/test-c-sharp/postgresTest/bin/Debug/net8.0/dotenv.net.dll

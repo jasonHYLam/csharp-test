@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/home/jhyl22/repos/test-c-sharp/postgresTest/obj/Debug/net8.0/scopedcss/projectbundle/postgresTest.bundle.scp.css",
-      "PackagePath": "staticwebassets/postgresTest.bundle.scp.css"
-    },
-    {
       "Id": "/home/jhyl22/repos/test-c-sharp/postgresTest/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

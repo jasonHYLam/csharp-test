@@ -1,8 +1,27 @@
+using CloudinaryDotNet;
+using dotenv.net;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using postgresTest.Model;
-using NSwag.AspNetCore;
-using Microsoft.Extensions;
+
+// Cloudinary set up
+// ======================
+
+DotEnv.Load(options: new DotEnvOptions(probeForEnv: true));
+
+Account account = new Account(
+  Environment.GetEnvironmentVariable("CLOUDINARY_NAME"),
+  Environment.GetEnvironmentVariable("CLOUDINARY_API_KEY"),
+  Environment.GetEnvironmentVariable("CLOUDINARY_API_SECRET")
+);
+// Cloudinary cloudinary = new Cloudinary(Environment.GetEnvironmentVariable("CLOUDINARY_URL"));
+Cloudinary cloudinary = new Cloudinary(account);
+cloudinary.Api.Secure = true;
+Console.WriteLine("checking cloudinary");
+Console.WriteLine(cloudinary);
+Console.WriteLine("\n");
+
+// ======================
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
@@ -24,7 +43,9 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.Services.AddSingleton(cloudinary);
 builder.Services.AddControllers();
+
 
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(connectionString));
@@ -36,7 +57,7 @@ builder.Services.AddIdentityCore<User>()
 
 // builder.Services.AddIdentity<User>();
 builder.Services.AddAuthorization();
-builder.Services.AddIdentityApiEndpoints<IdentityUser>()
+builder.Services.AddIdentityApiEndpoints<User>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
 // Swagger support
@@ -85,7 +106,7 @@ app.MapGet("/", () =>
   Console.WriteLine("hi");
 });
 
-app.MapIdentityApi<IdentityUser>();
+app.MapIdentityApi<User>();
 app.MapControllers();
 
 app.Run();
