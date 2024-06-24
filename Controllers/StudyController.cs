@@ -75,8 +75,8 @@ public class StudyController : ControllerBase
   {
 
     Console.WriteLine("checking HttpContext.user");
-    // Console.WriteLine(HttpContext.User.ToJson());
     Console.WriteLine(HttpContext.User);
+    Console.WriteLine(HttpContext.User.ToJson());
 
     var user = await _userManager.GetUserAsync(HttpContext.User);
     Console.WriteLine("checking user");
